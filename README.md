@@ -15,67 +15,69 @@
 
 - Input and output that directly involve a human actor
 - A dialog inbetween the user and system
-- Focuses on:
-  - User Experience (Human Computer Interaction / HCI)
-  - Usibility / User-friendliness
-- An User-Centered Design
-  - Evaluate designs to ensure usability
-  - Development is use iterative
 
-### Metaphors that can to assist in UI design 
+**Focuses:**
+- User Experience (Human Computer Interaction / HCI)
+- Usibility / User-friendliness
 
-#### Direct Manipulation
+**User-Centered Designing**
+- Evaluate designs to ensure usability
+- User iterative development
 
-UI icons manipulating objects that looks & works like a real-life counterpart
+-----
+
+### Metaphors that assists UI design 
+
+**Direct Manipulation**
+- UI icons manipulating objects that looks & works like a real-life counterpart
 - User drag folder to trash can would delete the folder
 
-#### Desktop
+**Desktop**
+- Organizing visual display into distinct regions, with a large empty workspace in the middle, with tools on the perimeter
 
-Organizing visual display into distinct regions, with a large empty workspace in the middle, with tools on the perimeter
-
-#### Document
-
-Representing data in files that looks like paper documents, sometimes with hyperlinks.
+**Document**
+- Representing data in files that looks like paper documents
+  - Sometimes with hyperlinks
 - The user fills in a form on app or website, in reality when they click "submit", only commands or requests are sent to program or server
 
-#### Dialog
+**Dialog**
+- The user and computer accomplishing a task by engaging a configuration-like conversation to confirm, cancel, adjust, toggle, input, and other actions
 
-The user and computer accomplishing a task by engaging a configuration-like conversation to confirm, cancel, adjust, toggle, input, and other actions
-- The user clicks "troubleshoot printer", the computer prints questions step-by-step, the user responds by selecting paths to troubleshoot
+If user clicks "troubleshoot printer":
+  - Computer prints questions step-by-step
+  - User responds by selecting paths to troubleshoot
 
 -----
 
 ### Interface Design Fundamentals / Principles
 
 #### Human-Interface Objects
-
 **Affordance**: The appearance of the object suggests its function
-
 **Visibility**: Visible on display & feedback to user's action
 
-#### Consistency
+#### Interface Consistency
 The interface should be consistent:
 - Across platforms
-- Within a suite of applications
-- Within a particular application
-- **Continuity**: Across releases over time
+- Within an app suite
+- Throughout the application
+- Across releases over time (Continuity)
 
-#### Discoverability
+#### Interface Discoverability
 - To help users discover “hidden” features or objects
 - **Active discovery**: mouse hovers, pop-ups, tool tips
 - Visual Diagrams to guide users
 
-#### Dialog Closure
+#### Interface Dialog Closure
 - **Closure on Dialogues** End of a series of actions
 - **Protect user’s work** at end and for partially complete work
 - Provide undo to reverse actions
 
-#### Readability & Navigation
+#### Interface Readability & Navigation
 - Readable text for all users (type, size, color) 
 - Clear navigation
 - Reverse navigation (a way out)
 
-#### Usability & Efficiency
+#### Interface Usability & Efficiency
 - Shortcut keys for experienced users
 - Meaningful error messages
 - Simplicity
@@ -83,7 +85,6 @@ The interface should be consistent:
 -----
 
 ### Analysis Models & Input Forms
-
 **Software sequence diagram**
 - Defines input messages, which indicates what forms
 
@@ -100,17 +101,22 @@ The interface should be consistent:
 
 ```
 -----Story board-----
-SYSTEM: What would you like to do?
-ACTOR: I'd like to check out
-SYSTEM: Okay, what is your email address or account number
-ACTOR: *provides email*
-SYSTEM: Are you *name* living in *address*?
-ACTOR: Yes
-SYSTEM: Are you checking out for *list of items* in your cart?
-ACTOR: Yes
-SYSTEM: How would you like to ship the item: *shipping options*
-ACTOR: I want *shipping option 1*
-SYSTEM: Your estimated delivery will be in *days*, total cost would be *money*
+SYS: What would you like to do?
+USR: I'd like to check out
+
+SYS: Okay, what is your email address or account number
+USR: *provides email*
+
+SYS: Are you *name* living in *address*?
+USR: Yes
+
+SYS: Are you checking out for *list of items* in your cart?
+USR: Yes
+
+SYS: How would you like to ship the item: *shipping options*
+USR: I want *shipping option 1*
+
+SYS: Your estimated delivery will be in *days*, total cost would be *money*
 
 -----Dialog-----
 1. Main Menu --> Cart button --> Check out drop down button
@@ -164,9 +170,10 @@ SYSTEM: Your estimated delivery will be in *days*, total cost would be *money*
 
 ### Quiz:
 
-#### System Design - Theory
+#### System Design
+##### Theory
 
-Individual system component that connects to a higher-level program or process
+What is the individual system component that connects to a higher-level program or process
 - Module
 
 Flexibility and scalability are two attributes of a system that is:
@@ -175,9 +182,7 @@ Flexibility and scalability are two attributes of a system that is:
 A system is ________ if it supports business requirements and meets user needs.
 - Effective
 
------
-
-#### System Design - Prototyping
+##### Prototyping
 
 Prototyping is involved in User Interface design, not system Design
 - False, both, unless its wireframing prototype
@@ -214,7 +219,7 @@ Interface that does not distract the user and calls no attention to itself
 
 #### Interface Design - Theory
 
-Designers should be sure to include cancel buttons on all dialog boxes which allow the user to back up. This is an example of what?​
+"Designers should be sure to include cancel buttons on all dialog boxes which allow the user to back up." is an example of:​
 - Easy reversal of actions
 
 Shortcut keys are an interesting feature, but are seldom used by experienced users.​
@@ -235,7 +240,7 @@ Ease of learning and ease of use are often in conflict.
 Use of fancy fonts always add interest and clarity to a web page and are recommended for many online systems.​
 - False
 
-A sample report, called a ________ , is provided to users for approval and normally includes enough records to show all of its design features.
+A sample report, called a ________, is provided to users for approval and normally includes enough records to show all of its design features.
 - Mock-up
 
 Industry leader ________ believes that the best interfaces are the ones that users do not even notice, especially if they prevent productivity losses due to system navigation issues.
@@ -243,7 +248,7 @@ Industry leader ________ believes that the best interfaces are the ones that use
 
 ##### Desktop & Mobile Platform
 
-The primary principles of UI design of a desktop system include principles which also generally apply to other types of devices. Which of the following principles is NOT an important guideline when considering the layout and format of a particular screen.​
+Which of the following principles is NOT an important guideline when considering the layout and format of a particular screen.​
 - Dark colors should be avoided.
 
 Which of the following are the two primary characteristics of smartphone UI design that are different than UI desktop design?
@@ -271,7 +276,7 @@ List all Gestalt principes of Closure:
 
 #### Interface Design - Diagrams
 
-Sketch that shows a general screen layout and design
+Sketch that shows a general screen layout and design is called:
 - Storyboard
 
 Storyboarding should result in a detailed dialog design.
@@ -288,160 +293,7 @@ One effective way to present large volumes of data is to summarize it and presen
 
 -----
 
-#### HCI Metaphor - Dialog
-
-Software (such as typical tax preparation software) which in essence interviews the user is following which user interface metaphor?​
-- Dialog metaphor
-
-Using the dialogue metaphor, it is important the each dialogue has a defined beginning and ending. This concept is referred to as
-- Closure
-
-To implement the dialog metaphor requires voice communication and voice recognition capabilities on the computer.​
-- False
-
-A metaphor of human-computer interaction (HCI) in which interacting with the computer, is much like carrying on a conversation is called
-- Dialog metaphor
-
-Each dialog within the system should be organized with a clear sequence–a beginning, middle, and end. This describes which of the rules for designing interactive interfaces?
-- Design dialogs to yield closure.
-
------
-
-#### HCI Metaphor - Document
-
-A metaphor of human-computer interaction, in which interaction with the computer involves browsing and entering data on electronic documents, is referred to as a
-- Documents
-
-Collect input data, trigger input actions, provide original transaction record
-- Source Documents
-
-Whether they are paper-based or provided online, ________ collect input data, trigger or authorize an input action, and provide a record of the original transaction.
-- Source documents
-
-________ are output documents that are entered back into the same or another information system.
-- Turnaround documents
-
-Output document that is entered back into the same or another system
-- Turnaround document
-
------
-
-#### HCI Metaphor - Document zones
-
-The ________ zone is an area of a form's layout that contains the codes, identification information, numbers, and dates that are used for storing the completed document.
-- Control
-
-The ________ zone is often at the bottom of a source document and contains any signatures that are required.
-- Authorization
-
-The ________ zone takes up at least half of the space on a form and contains captions and areas for entering variable data.
-- Body
-
------
-
-#### Metaphor - Desktop
-
-An approach where the visual display is organized into regions and includes an arrangement of common tool icons is called a ____.
-- Desktop metaphor
-
------
-
-#### Input Methods / Types
-
-________ input is usually performed on a specified schedule, so it would be beneficial to a payroll department who wants to process and release paychecks at the same time each week.
-- Batch
-
-The keyboard is an example of a(n) ________ input technology.
-- Traditional
-
-Advanced optical recognition is an example of a(n) ________ input technology.
-- Evolving
-
-Artificial intelligence is an example of a(n) ________ input technology.
-- Emerging
-
-Includes measures to ensure that input data is correct, complete, and secure
-- Input Control
-
-The use of handheld scanners to read optical strips on library books is an example of:
-- Source data automation
-
-Online input method combining online data entry and automated data capture
-- Source Data Automation
-
-The RFID scanner is a device used for ________ , which is the easiest, most accurate, and least expensive data input strategy.
-- Automated data capture
-
------
-
-#### Design Prototyping
-
-Produces an early, rapidly constructed working version of a proposed system
-- Prototyping
-
-A ________ is an early, rapidly constructed working model of an information system that allows users to test it in a risk-free environment and either approve it or request changes.
-- Prototype
-
-What is third of five phases in the systems development life cycle
-- System design
-
-Produces a full-featured, working model of an information system
-- System prototyping
-
-_______ produces a full-featured, working model that is ready for implementation if all requirements have been met.
-- System prototyping
-
-Verifies user requirements, after which the prototype is discarded
-- Design Prototyping
-
-________ is used to verify user requirements, after which the prototype is discarded and implementation continues.
-- Design prototyping
-
------
-
-#### Program features
-
-Control features, such as menu bars and toolbars, can be placed on a(n) ________ , which is like a graphical version of a main menu.
-- Switchboard
-
-Employees use ________ , an essential means of internal and external business communication, to exchange documents, data, schedules, and business-related information.
-- E-mail
-
-If a user opens an application's Help feature, the software may use ________ technology to retrieve a list of topics that relate to the question the user has entered.
-- Natural language
-
-A(n) ________ is an interface feature that is used to initiate an action such as printing a form or requesting help.
-- Command button
-
-A(n) ________ is an interface feature that contains icons or buttons that represent shortcuts for executing common commands.
-- Toolbar
-
-A(n) ________ is an interface feature that is used to switch between on and off statuses.
-- Toggle button
-
-________ is a recommended data entry method in which a blank form that duplicates or resembles the source document is completed on the screen.
-- Form filling
-
-Designers must think like users when developing ________ interfaces, which incorporate terms and metaphors that are familiar to users.
-- User-centered
-
------
-
-#### Computer Systems
-
-Large firms often use ________ to scan and store images of original documents, which results in high-quality records management and archiving.
-- Computer Output to Microfilm (COM)
-
-Despite government incentives to increase the use of ________ , there is reluctance on the part of many physicians who feel that the software is difficult to use and does not meet their needs.
-- Electronic Health Record (EHR)
-
-When using a CASE tool or screen generator for documentation, number the screen designs and save them in a hierarchy similar to a(n):
-- Menu tree
-- Note: Computer-Aided Software Engineering (CASE)
-
------
-
-#### Human-Computer Interaction Theory
+#### Human-Computer Interaction (HCI) Theory
 
 ________ describes the relationship between computers and people who use them to perform their jobs.
 - Human-Computer Interface (HCI)
@@ -472,14 +324,12 @@ List all Human-Computer Interaction principles:
 - Support internal locus of control
 - Reduce short-term memory load
 
------
-
-#### HCI - Input Handling
+##### HCI - Input Handling
 
 A system is ________ if it can handle input errors, processing errors, hardware failures, or human mistakes.
 - Reliable
 
-#### HCI - Input Validation
+##### HCI - Input Validation
 
 A(n) ________ can be used to verify that data items fall between a specified minimum and maximum value.
 - Range
@@ -508,9 +358,7 @@ Microsoft Access uses ________ to help in preventing errors when data is entered
 Batch control totals are often called ________ totals because they are not meaningful numbers themselves, but are useful for comparison purposes.
 - Hash
 
------
-
-#### HCI - Types of Output / Feedback
+##### HCI - Types of Output / Feedback
 
 Since it is not always clear that Web page objects are clickable, or when a control has recognized the click, designers should be careful to apply the principle of
 - Feedback
@@ -524,9 +372,7 @@ An academic advisor might use a(n) ________ report to identify only those studen
 Operating systems deliberately include an electronic “click” sound for keyboard and mouse activities. This describes which of the eight golden rules for designing interactive interfaces?
 - Offer informative feedback
 
------
-
-#### HCI - Standard Output / Feedback
+##### HCI - Standard Output / Feedback
 
 ________ is a term that refers to the commonly accepted belief that the quality of an information system's output is only as good as the quality of its input.
 - Garbage in garbage out (GIGO)
@@ -540,17 +386,15 @@ ________ are a form of Web-based output that can be downloaded from a variety of
 ________ are a form of Web-based output that are written to deliver fact as well as opinion to Web readers.
 - Blogs
 
-Database programs, such as Microsoft ________ , allow users to easily create groups and subgroups as well as reports that calculate and display totals, averages, and record counts.
+Database programs, such as Microsoft ________, allow users to easily create groups and subgroups as well as reports that calculate and display totals, averages, and record counts.
 - Access
 
------
-
-#### HCI - Exception / Error Feedback
+##### HCI - Exception / Error Feedback
 
 A good example of an error message might be, “The account information is missing critical data. Please re-enter.”
 - False
 
-#### HCI - Reports
+##### HCI - Reports
 
 Report that produces one or more lines of output for each record processed
 - Detail Report
@@ -567,14 +411,147 @@ Reports that are used by high-level managers to assess the overall health and pe
 A(n) ________ will produce one or more lines of output for each record that is processed.
 - Detail report
 
-Modern IT departments tend to rely on customer-designed output rather than ________ , which were the reams of printed reports that were commonly produced in the past.
+Modern IT departments tend to rely on customer-designed output rather than ________, which were the reams of printed reports that were commonly produced in the past.
 - Greenbar report (cold report)
 
 Prevents a user from saving a record until a suitable value is entered
 - Existence Check
 
-A feature of a well-designed report is the ________ , which identifies the report, and contains the report title and date.
+A feature of a well-designed report is the ________, which identifies the report, and contains the report title and date.
 - Report header
 
-A feature of a well-designed report is the ________ , which appears at the end of the report and may include grand totals for numeric fields as well as other end-of-report information.
+A feature of a well-designed report is the ________, which appears at the end of the report and may include grand totals for numeric fields as well as other end-of-report information.
 - Report footer
+
+-----
+
+#### Human-computer interaction (HCI) Metaphors
+
+##### HCI Dialog
+A metaphor of human-computer interaction (HCI) in which interacting with the computer, is much like carrying on a conversation is called
+- Dialog metaphor
+
+Software (such as typical tax preparation software) which in essence interviews the user is following which user interface metaphor?​
+- Dialog metaphor
+
+"Using the dialogue metaphor, it is important that each dialogue has a defined beginning and ending." is referred to:
+- Closure
+
+To implement the dialog metaphor requires voice communication and voice recognition capabilities on the computer.​
+- False
+
+Each dialog within the system should be organized with a clear sequence–a beginning, middle, and end. This describes which of the rules for designing interactive interfaces?
+- Design dialogs to yield closure.
+
+##### HCI Document
+A metaphor of human-computer interaction, in which interaction with the computer involves browsing and entering data on electronic documents, is referred to as:
+- Documents
+
+________ collect input data, trigger or authorize an input action, and provide a record of the original transaction.
+- Source documents
+
+________ are output documents that are entered back into the same or another information system.
+- Turnaround documents
+
+Output document that is entered back into the same or another system
+- Turnaround document
+
+##### HCI Metaphor - Document zones
+The ________ zone is an area of a form's layout that contains the codes, identification information, numbers, and dates that are used for storing the completed document.
+- Control
+
+The ________ zone is often at the bottom of a source document and contains any signatures that are required.
+- Authorization
+
+The ________ zone takes up at least half of the space on a form and contains captions and areas for entering variable data.
+- Body
+
+##### HCI Metaphor - Desktop
+An approach where the visual display is organized into regions and includes an arrangement of common tool icons is called a ____.
+- Desktop metaphor
+
+-----
+
+#### Input Methods / Types
+
+________ input is usually performed on a specified schedule, so it would be beneficial to a payroll department who wants to process and release paychecks at the same time each week.
+- Batch
+
+The keyboard is an example of a(n) ________ input technology.
+- Traditional
+
+Advanced optical recognition is an example of a(n) ________ input technology.
+- Evolving
+
+Artificial intelligence is an example of a(n) ________ input technology.
+- Emerging
+
+________ includes measures to ensure that input data is correct, complete, and secure
+- Input Control
+
+The use of handheld scanners to read optical strips on library books is an example of:
+- Source data automation
+
+Online input method combining online data entry and automated data capture
+- Source Data Automation
+
+The RFID scanner is a device used for ________, which is the easiest, most accurate, and least expensive data input strategy.
+- Automated data capture
+
+-----
+
+#### SDLC Design Phase - Prototyping
+
+What is third of five phases in the systems development life cycle
+- System design
+
+A ________ is an early, rapidly constructed working model of an information system that allows users to test it in a risk-free environment and either approve it or request changes.
+- Prototype
+
+_______ produces a full-featured, working model that is ready for implementation if all requirements have been met.
+- System prototyping
+
+________ is used to verify user requirements, after which the prototype is discarded and implementation continues.
+- Design prototyping
+
+-----
+
+#### Program features
+
+Control features, such as menu bars and toolbars, can be placed on a(n) ________, which is like a graphical version of a main menu.
+- Switchboard
+
+Employees use ________, an essential means of internal and external business communication, to exchange documents, data, schedules, and business-related information.
+- E-mail
+
+If a user opens an application's Help feature, the software may use ________ technology to retrieve a list of topics that relate to the question the user has entered.
+- Natural language
+
+A(n) ________ is an interface feature that is used to initiate an action such as printing a form or requesting help.
+- Command button
+
+A(n) ________ is an interface feature that contains icons or buttons that represent shortcuts for executing common commands.
+- Toolbar
+
+A(n) ________ is an interface feature that is used to switch between on and off statuses.
+- Toggle button
+
+________ is a recommended data entry method in which a blank form that duplicates or resembles the source document is completed on the screen.
+- Form filling
+
+Designers must think like users when developing ________ interfaces, which incorporate terms and metaphors that are familiar to users.
+- User-centered
+
+-----
+
+#### Computer Systems
+
+Large firms often use ________ to scan and store images of original documents, which results in high-quality records management and archiving.
+- Computer Output to Microfilm (COM)
+
+Despite government incentives to increase the use of ________, there is reluctance on the part of many physicians who feel that the software is difficult to use and does not meet their needs.
+- Electronic Health Record (EHR)
+
+When using a CASE tool or screen generator for documentation, number the screen designs and save them in a hierarchy similar to a(n):
+- Menu tree
+- Note: Computer-Aided Software Engineering (CASE)
